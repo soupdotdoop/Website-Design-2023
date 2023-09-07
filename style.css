@@ -1,0 +1,49 @@
+body {
+    background-color: rgba(200, 242, 250, .5);
+    /*this is a comment that doesn't impact the code and doesnt show up on page*/
+    font-family: Helvetica, Arial, sans-serif;
+    }
+
+h1 {font-size: 80px;
+    font-weight: normal;
+    font-style: italic;
+    font-family: futura, arial, sans-serif;
+   }
+
+a {
+    color: red;
+    font-weight: bold;
+    text-decoration: none;
+    }
+a:hover {
+    text-decoration: underline;
+    color: green;
+    font-size: 30px;
+}
+li:hover{
+    font-size: 20px;
+}
+hr {
+    border-color: orange;
+}
+h6 {
+    text-transform: uppercase;
+    color: orange;
+}
+p {
+    font-size: 20px;
+    color: grey;
+}
+.orange{
+    color:black;
+    font-weight: bold; 
+    background-color:orange;
+    padding: 50px 20px 50px 20px;
+}
+.paddingmargin1{
+    padding: 50px 20px;
+    margin: 50px 20px;
+}
+#highlight {
+    background-color: white;
+}
