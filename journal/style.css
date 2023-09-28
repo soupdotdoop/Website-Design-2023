@@ -1,0 +1,230 @@
+*{
+    font-family: 'VT323','Press Start 2P', monospace;
+    box-sizing:border-box;
+}
+
+h1{
+    margin-left:0;
+    margin-right:0;
+    text-align: center;
+    font-family:'Press Start 2P', monospace;
+    margin-bottom: -5px;
+}
+
+/*.column {
+    background-color:blanchedalmond;
+    float: left;
+    width: 33.33%;
+    text-align: center;
+    position:relative;
+  }*/
+  
+.column{
+    width:300px;
+    height:150px;
+    margin: 100px 50px 100px 50px;
+    margin-top:150px;
+    margin-left:10px;
+    margin-right:10px;
+    padding: 30px;
+    padding-top:10px;
+    padding-bottom:10px;
+    background-image:url(images/dd9pew1-0ed4c047-7fa6-428f-a85d-bc2c286acb3d.png);
+    background-size:cover;
+    background-repeat:no-repeat;
+    text-align: center;
+    position:relative;
+}
+
+.flex-area{
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    position:relative;
+    }
+
+.backgroundimage1{
+    background-image: url(images/download.webp);
+    background-repeat:no-repeat;
+    background-size:cover;
+    height:500px;
+    border-style:solid;
+    position:relative;
+    margin-top:0px;
+}
+
+.ab1{
+    position:relative;
+    top:100px;
+    display:grid;
+    align-items: center;
+    grid-template-columns: 70% 30%;
+    width:50vw;
+    column-gap: 5px;
+    z-index:90;
+    text-align: center;
+    margin-left: auto;
+    margin-right:auto;
+}
+
+.ab2{
+    text-align:center;
+    display:block;
+    height:17vh;
+    z-index:100;
+   margin-left: 0;
+   margin-right:0;
+}
+
+.thereadings{
+    text-align:center;
+    font-size:4.5vh;
+    display:block;
+    background-color:rgb(255, 255, 255);
+    background-size:cover;
+    margin-left: 0;
+    margin-right:0;
+}
+
+.left{
+    text-align:justify;
+    padding-left:30px;
+    padding-right:30px;
+    margin-left:50px;
+    margin-right:50px;
+}
+
+.parent{
+    display:flex;
+    flex-direction:row;
+}
+
+.b1{
+    text-align:justify;
+    margin-right:20px;
+    margin-left:50px;
+    font-size:20px;
+    background-color: lightblue;
+    background-size:cover;
+    margin-bottom:0px;
+}
+
+.b2{
+    text-align:right;
+    display:inline-block;
+    margin-right:100px;
+    margin-top:10px;
+}
+
+.parent2{
+    background-color:rgb(255, 255, 142);
+    background-size:cover;
+    padding-left:30px;
+    padding-right:30px;
+    padding-top:5px;
+    margin-left:50px;
+    margin-right:50px;
+    margin-top:10px;
+    margin-bottom:10px;
+}
+
+.ob1{
+    font-size:20px;
+    margin-left:50px;
+    margin-right:50px;
+    margin-top:5px;
+    
+}
+
+.row{
+    display:flex;
+    flex-wrap:wrap;
+    padding:0 4px;
+    text-align:center;
+}
+
+.column2{
+    flex:50%;
+    padding:0 4px;
+}
+
+.column2 img{
+    margin-top:8px;
+    vertical-align:middle;
+    margin:10px;
+}
+
+.ob2{
+    width:400px;
+    z-index:5;
+}
+.ob3{
+    width:400px;
+    z-index:5;
+}
+.ob4{
+    width:400px;
+    z-index:5;
+}
+.ob5{
+    width:400px;
+    z-index:5;
+}
+
+.con{
+    text-align:justify;
+    margin-right:50px;
+    margin-left:50px;
+    font-size:20px;
+    background-color: lightblue;
+    background-size:cover;
+    margin-bottom:5px;
+    padding-left:30px;
+    padding-right:30px;
+    padding-top:10px;
+    padding-bottom:10px;
+}
+.final{
+    margin-right:50px;
+    margin-left:50px;
+}
+
+
+
+
+/*.screenshotparent{
+    display:flex;
+    flex-direction:row;
+    position:relative;
+}
+
+.ob2{
+    width:600px;
+    display:inline-block;
+    margin-right:50px;
+    position:relative;
+    z-index:5;
+}
+.ob3{
+    width:600px;
+    display:inline-block;
+    position:relative;
+    margin-right:50px; 
+    /* https://web.archive.org/web/20050212034531/http://www2.warnerbros.com/batman/ 
+}
+
+.ob4{
+    width:700px;
+    display:inline-block;
+    position:relative;
+    margin-right:50px; 
+    margin-left:20px;
+}
+.ob5{
+    width:700px;
+    display:inline-block;
+    position:relative;
+    margin-right:50px; 
+    margin-left:20px;
+}*/
+
