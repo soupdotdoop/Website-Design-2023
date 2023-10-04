@@ -31,10 +31,10 @@ h1{
     width:700px;
     height:500px;
     background-color:rgb(159, 159, 159);
-    background-image: url(images/j2umj58zgo9z.jpg);
-    
+    background-image: url(images/j2umj58zgo9z.jpeg);
     background-size:50%;
     margin:50px auto;
+    margin-top: 2px;
     position:relative;
 }
 
@@ -108,7 +108,46 @@ h3{
     position:absolute;
     right:330px;
     top:-15%;
+    z-index:10;
 }
+
+.file2{
+    background-image:url(images/rijr55kBT.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height:240px;
+    width:380px;
+    vertical-align: middle;
+    line-height:27px;
+    padding-left:30px;
+    padding-top:65px;
+    margin-bottom:100px;
+    margin-top:50px;
+    position:absolute;
+    right:-250px;
+    top:15%;
+    z-index:10;
+    font-size:17px;
+    font-family:monospace;
+}
+
+.buyhere{
+    font-size:17px;
+}
+
+a{
+    font-family:monospace;
+    color:rgb(57, 99, 121);
+}
+
+.blackbackground{
+    background-color: black;
+    height:850px;
+    width: 600px;
+    position: absolute;
+    z-index:0;
+}
+
 
 .container2{
     width:500px;
@@ -120,15 +159,28 @@ h3{
     background-position-y:bottom;
     margin:50px auto;
     position:relative;
+    z-index:5;
+}
+
+
+.center{
+    text-align: center;
+    margin-left:auto;
+    margin-right:auto;
+    margin-bottom:0px;
+    margin-top:30px;
+    font-size:30px;
 }
 
 .container3{
     display:block;
     position:relative;
-    width:2000px;
+    width:1300px;
     height:300px;
     margin:200px auto;
     align-items: center;
+    margin-top:20px;
+    margin-bottom:200px;
 }
 
 .box {
@@ -142,7 +194,7 @@ h3{
     overflow:hidden;
     border-radius: 10px;
    overflow-wrap: break-word;
-    background-image: url(images/RCO138_1663957975.jpg);
+    background-image: url(images/RCO138_1663957975.jpeg);
     background-size:contain;
 }
 
@@ -157,7 +209,7 @@ h3{
     overflow:hidden;
     border-radius: 10px;
    overflow-wrap: break-word;
-    background-image: url(images/RCO245_1663957975\ copy.jpg);
+    background-image: url(images/RCO245_1663957975\ copy.jpeg);
     background-size:cover;
 }
 
@@ -203,9 +255,6 @@ h3{
     opacity:.8;
 }
 
-
-
-
 .images{
     overflow:hidden;
     text-align:center;
@@ -215,14 +264,212 @@ h3{
     cursor:pointer;
     transition:.2s;
 }
-.images img{
-    
-}
+
 .images img:hover{
     opacity:.8;
-
-
 }
 
 
+.center2{
+    text-align: center;
+    margin-left:auto;
+    margin-right:auto;
+    padding:10px;
+    margin-bottom:10px;
+    margin-top:80px;
+    font-size:30px;
+    color:rgb(255, 255, 255);
+    background-color: black;
+    background-size:auto;
+}
 
+.backgroundblue{
+    width:fit-content;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.backgroundred{
+    background-color:#d43a2dff;
+    padding:3px;
+    margin-right:auto;
+    margin-left:auto;
+    margin-bottom:5px;
+}
+
+.spoilersbelow{
+    margin-right:auto;
+    margin-left:auto;
+    width:800px;
+    font-size:20px;
+}
+
+.artbox{
+    margin-bottom:10px;
+}
+
+.panelbox{
+    position:relative;
+    height:fit-content;
+    width:fit-content;
+    background-color: rgb(0, 0, 0);
+    text-align: center;
+}
+
+.panel1{
+    height:650px;
+    margin:50px auto;
+    margin-top:30px;
+    text-align: center;
+    outline: 10px black;
+    margin-bottom:10px;
+    
+}
+
+.panel2{
+    position:relative;
+    height:650px;
+    margin:50px auto;
+    margin-top:10px;
+    margin-bottom:10px;
+    transition: transform .2s;
+}
+
+
+.container4{
+    width:1000px;
+    
+    background-color:rgb(159, 159, 159);
+    margin-left:25px;
+    position:relative;
+}
+
+.row{
+    display: flex;
+    margin:auto;
+    position:relative;
+    margin-bottom:0;
+    font-size:20px;
+    align-items:center;
+    background-size:cover;
+    background-color:rgb(216, 40, 34);
+    height:fit-content;
+    width:1000px;
+    vertical-align: middle;
+    color:black;
+    border-radius: 10px;
+}
+
+.column2b{
+    flex: 50%;
+    
+    background-size:cover;
+    align-items:center;
+    justify-content: center;
+    padding-right:4%;
+    font-family:monospace;
+    position:relative;
+    padding:20px;
+}
+
+.column2a{
+    flex: 50%;
+    margin-right:10px;
+    margin-bottom:15px;
+    width:50%;
+    text-align:right;
+    align-items:center;
+    justify-content: center;
+    padding-right:4%;
+    position:relative;
+    vertical-align: middle;
+}
+
+.black2{
+    background-image:url(images/0x0.webp);
+    background-size:20%;
+    padding:20px;
+    border-radius:10px;
+}
+
+.bigger{
+    font-size:40px;
+}
+
+li {
+    list-style-position: inside;
+    font-family:monospace;
+    line-height:35px;
+  }
+
+.baticon{
+    margin-right:0;  
+    margin-left:0;
+    text-align: center;
+    margin-top:0px;
+}
+.baticon2{
+    margin-right:0;  
+    margin-left:0;
+    text-align: center;
+    margin-top:0px;
+    margin-bottom:4px;
+}
+
+
+.overflow{
+    overflow:hidden;
+    overflow-x:hidden;
+}
+
+.vl {
+    border-left: 400px solid rgb(0, 0, 0);
+    height: 600px;
+    position: absolute;
+    left: -425px;
+    margin-left: -3px;
+    top: -80px;
+  }
+
+.vl2 {
+    border-left: 400px solid rgb(0, 0, 0);
+    height: 600px;
+    position: absolute;
+    right: -425px;
+    margin-right: -3px;
+    top: -80px;
+  }  
+.vl3 {
+    border-left: 400px solid rgb(44, 49, 185);
+    height: 600px;
+    position: absolute;
+    left: -425px;
+    margin-left: -3px;
+    top: 500px;
+} 
+.vl4 {
+    border-left: 400px solid rgb(44, 49, 185);
+    height: 600px;
+    position: absolute;
+    right: -425px;
+    margin-right: -3px;
+    top: 500px;
+  } 
+
+
+
+
+
+.blackpic{
+    position:relative;
+    height:50px;
+    width:max-content;
+    background-color: yellow;
+}
+
+.blackpicab{
+    position:absolute;
+    height:90px;
+    top:-1000;
+    overflow:hidden;
+}
