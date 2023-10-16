@@ -1,0 +1,131 @@
+*{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.parent {
+    display: grid;
+    position:relative;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    background-color: rgb(237, 237, 237);
+    margin:0 auto;
+    border: 5px solid black;
+    height:1500px;
+    width: 1000px;
+    text-align: center;
+    margin-top:100px;
+    margin-bottom:100px;
+    }
+    
+    .div1 { 
+        grid-area: 4 / 1 / 5 / 2; 
+        background-image: url(91+z-kCuu0L._AC_UF1000\,1000_QL80_.jpg);
+        background-repeat: no-repeat;
+        border: 5px solid black;
+        background-size:cover;
+    }
+    .div2 { 
+        grid-area: 4 / 2 / 5 / 3; 
+        background-image:url(2280537-box_wiisp.png);
+        background-repeat: no-repeat;
+        border: 5px solid black;
+        background-size:contain;
+        background-position-y:center;
+       /* display:flex;
+        justify-content: center;
+        align-items: center;*/
+    }
+    .div3 { 
+        grid-area: 4 / 3 / 5 / 4; 
+        background-image: url(7916050-wii-party-wii-manual.jpeg);
+        background-repeat: no-repeat;
+        border: 5px solid black;
+        background-size:cover;
+    }
+    .div4 { 
+        grid-area: 4 / 4 / 5 / 5; 
+        background-image: url(71WaebgRjaS.jpeg);
+        background-repeat: no-repeat;
+        border: 5px solid black;
+        background-size:contain;
+        background-position-y:center;
+    }
+    .div5 { 
+        grid-area: 1 / 1 / 4 / 5; 
+        background-image:url(719656-revknow_001.jpeg);
+        background-repeat: no-repeat;
+        border: 5px solid black;
+        background-size:cover;
+      
+    }
+
+.highlight{
+    background-color: white;
+}
+
+.fav{
+    font-size:100px;
+}
+
+.wiisports{
+    margin-top:100px;
+}
+
+
+.barbie{
+  background-image: url(giphy.gif);
+  height:900px;
+  display:flex;
+        justify-content: center;
+        align-items: center;
+}
+
+.parent2 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr 3fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    border: 5px solid pink;
+    text-align:center;
+    width:fit-content;
+    margin-bottom:50px;
+    margin-left:auto;
+    margin-right:auto;
+    font-size:70px;
+    background-color: palevioletred;
+    }
+    
+    .div1b { 
+        grid-area: 2 / 1 / 3 / 2;
+        border: 5px solid pink;
+    }
+    .div2b { 
+        grid-area: 2 / 2 / 3 / 3; 
+        border: 5px solid pink;
+    }
+    .div3b { 
+        grid-area: 2 / 3 / 3 / 4; 
+        border: 5px solid pink;
+        background-image: url(Barbie_and_the_Magic_of_Pegasus_Digital_Copy.webp);
+        background-size:contain;
+        background-repeat: no-repeat;
+        background-position-x: center;
+    }
+    .div4b { 
+        grid-area: 1 / 1 / 2 / 4;
+        border: 5px solid pink; 
+        font-family:'Times New Roman', Times, serif;
+        background-position-y: bottom;
+        color:white;
+    }
+
+
+
+
+
+
+
+
