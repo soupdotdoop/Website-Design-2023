@@ -1,0 +1,468 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+
+h1{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:40px;
+    margin-right:100px;
+    color:rgb(244, 244, 244);
+    
+}
+
+h1 a{
+    color:rgb(244, 244, 244);
+    background-color: transparent;
+}
+
+h1 a:hover{
+    background-color:transparent;
+}
+
+header{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    position:fixed;
+    z-index:101;
+    width:100%;
+    background-color: rgb(59, 59, 59);
+    padding:5px;
+    /*background-color: rgb(55, 55, 55);
+    height:50px;*/
+}
+
+nav{
+    text-align:right;
+}
+
+nav ul li{ /*-->this just targets the list items in the nav (including ul li in the nav rule makes it apply only to the ul li in nav)*/
+    display:inline-block;
+    font-size:17px;
+    text-transform: uppercase;
+    margin: 0 10px;
+    border:none;
+    text-align:right;
+}
+
+a{
+    color:rgb(175, 175, 175);
+    text-decoration: none;
+    background-color: black;
+    padding:5px 10px;
+}
+
+a:hover{
+    background-color:rgb(175, 175, 175);
+    color:black;
+    
+}
+
+#opener{
+   width:100vw;
+   height: 100vh;
+   background-color: black; 
+   margin:0 auto;
+   position:relative;
+   overflow:hidden;
+}
+
+h2{
+    color:whitesmoke;
+    font-family: 'Times New Roman', Times, serif;
+    line-height:1.6;
+    font-weight:normal;
+    font-size:42px;
+}
+
+h3{
+    color:whitesmoke;
+    font-family:'DM Sans', sans-serif;
+    font-size:24px;
+}
+
+.quote{
+    color:lightskyblue;
+    width:600px;
+    top:200vw;
+    left:100vh;
+    opacity: 0.5;
+    position: relative;
+    top: 100px;
+    left: 100px;
+    z-index:100;
+}
+
+.redmoon{
+    background-image:url(moonpics/moon-red.png);
+    background-repeat:no-repeat;
+    background-size:contain;
+    width:600px;
+    height:600px;
+    position:absolute;
+    bottom:100px;
+    left:-100px;
+    top:300px;
+}
+
+.bluemoon{
+    background-image:url(moonpics/moon-blue.png);
+    background-repeat:no-repeat;
+    background-size:contain;
+    width:800px;
+    height:800px;
+    position:absolute;
+    top:-100px;
+    right:-200px; /*vw --> view port width. Will shift size according to webpage tab size*/
+}
+
+.bwmoon{
+    background-image:url(moonpics/moon-bw.png);
+    background-repeat:no-repeat;
+    background-size:contain;
+    width:400px;
+    height:400px;
+    position:absolute;
+    left:700px;
+    z-index: 10;
+}
+
+.flex-area{
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    background-image: url(moonpics/galaxy.jpg);
+    background-size:cover;
+    background-position:bottom;
+}
+
+h4{
+    font-family:Abril fatface;
+    font-size:36px;
+    margin-bottom: 40px;
+    color:whitesmoke;
+}
+
+ul{
+    list-style-type:none;
+}
+
+li{
+    font-family:'DM Sans', sans-serif;
+    font-size:20px;
+    border-bottom:1px dotted white;
+    padding: 10px 0 10px 0;
+    color: whitesmoke;
+}
+
+.column{
+    width:300px;
+    margin: 100px 50px 100px 50px;
+}
+
+span{
+    color:rgb(191, 200, 69);
+    font-size:16px;
+    text-transform: uppercase;
+}
+
+
+
+.gridarea{
+    background-color: black;
+    padding:100px;
+}
+
+.phasesmoon{
+    display:grid;
+    /*grid-template-columns: 100px 100px 100px 100px;/*tells u that u want 4 columns each at 100px*/
+   /* grid-template-columns: 25% 25% 25% 25%;*/
+   grid-template-columns: 3fr 1fr 1fr 1fr;
+   margin-left:auto;
+   margin-right:auto;
+   gap:10px;
+}
+
+
+/*Griditem applies to all phases*/
+.griditem{
+    height:200px;
+    background-size:contain;
+    background-repeat:no-repeat;
+    background-position: center;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.phase0{
+    background-image:url(moonpics/moon-phases/phase0.jpg);
+    grid-row-start: 1;
+    grid-row-end: 4;
+    height:600px;
+}
+
+.phase1{
+    background-image: url(moonpics/moon-phases/phase1.jpg);
+    
+}
+
+.phase2{
+    background-image: url(moonpics/moon-phases/phase2.jpg);
+}
+
+.phase3{
+    background-image: url(moonpics/moon-phases/phase3.jpg);
+}
+
+.phase4{
+    background-image: url(moonpics/moon-phases/phase4.jpg);
+}
+
+.phase5{
+    background-image: url(moonpics/moon-phases/phase5.jpg);
+}
+
+.phase6{
+    background-image: url(moonpics/moon-phases/phase6.jpg);
+}
+
+.phase7{
+    background-image: url(moonpics/moon-phases/phase7.jpg);
+}
+
+.phase8{
+    background-image: url(moonpics/moon-phases/phase8.jpg);
+}
+
+p{
+    font-size:12px;
+    color:rgb(191, 200, 69);
+    font-family:sans-serif;
+    text-align: center;
+}
+
+a.button{
+    font-family:sans-serif;
+    background-color:white;
+    font-size:16px;
+    text-transform: uppercase;
+    border-radius: 10px;
+    display:block;
+    width:200px;
+    margin:0 auto;
+    text-align: center;
+    box-shadow: 3px 3px grey;
+    margin-top:50px;
+    padding:15px;
+}
+
+a.button:hover{
+    color:rgb(46, 46, 46);
+    transform:translate(2px, 2px);
+    box-shadow:1px 1px grey;
+}
+
+#video-section{
+    background-color: black;
+    background-image:none;
+    padding:100px 0;
+
+}
+
+iframe{
+    margin:0 50px;
+}
+
+#poem-section{
+    background-color:black;
+    padding:100px;
+    position: relative;
+}
+
+.movingmoon{
+    background-image:url(moonpics/moon-bw.png);
+    background-repeat:none;
+    background-size:contain;
+    width:200px;
+    height:200px;
+    position:absolute;
+    top:0;
+    left:0;
+    animation-name:my-moon;
+    animation-duration:20s;
+    animation-iteration-count: infinite;
+
+}
+
+@keyframes my-moon{
+    0% {left:0; top:0;}
+    25% {left:80%; top:0;}
+    50% {left:80%; top:200px;}
+    75% {left:0; top:200px;}
+    100% {left:0; top:0;}
+}
+
+
+.text{
+    text-align:center;
+    position:relative;
+    z-index:5;
+}
+.text h2{
+    text-align:center;
+    font-size:40px;
+   
+}
+.text h3{
+    text-align:center;
+    font-size:16px;
+    margin:0 0 50px 0;
+}
+
+.text p{
+    text-align:center;
+    color:white;
+    font-size:30px;
+    line-height:1.6;
+    font-family:sans-serif;
+}
+
+.circle{
+    display:inline-block;
+    width:30px;
+    height:30px;
+    background-color:red;
+    border-radius:100px;
+    margin:0 10px -5px 10px;
+    padding-top:-5px;
+    transition: all .5s;
+}
+
+.circle:hover{
+    background-color:rgb(255, 196, 0);
+    cursor:pointer;
+    width:100px;
+    
+}
+
+.word{
+    opacity:0;
+    transition: .6s;
+}
+
+.circle:hover .word{
+    opacity:100;
+}
+
+.laugh{
+    display: inline-block;
+    background-color: green;
+    color:yellow;
+    padding:5px;
+    margin: 0 20px;
+    font-size:20px;
+    transition:2s;
+}
+
+.laugh:hover{
+    transform:rotate(180deg);
+    cursor:crosshair;   
+}
+
+.called{
+    display:inline-block;
+    padding:5px;
+    color:white;
+    transition:all .1s;
+}
+
+.called:hover{
+    display:inline-block;
+    font-size:40px;
+}
+
+.hid{
+    display:inline-block;
+    background-color:blue;
+    margin: 0 20px;
+    transition:all 1s;
+}
+
+.hid:hover{
+    opacity:0;
+    cursor:s-resize;
+}
+
+@media screen and (max-width: 990px) {
+h2{
+    font-size:20px;
+}
+h1{
+    width:100%;
+    margin-bottom:20px;
+    text-align:center;
+}
+nav{
+    width:100%;
+    text-align:center;
+}
+.quote{
+    width:80%;
+    top:0;
+    left:0;
+    margin:250px auto;
+}
+header{
+    flex-direction:column;
+}
+#opener{
+    
+}
+.bluemoon{
+    height:400px;
+    width:400px;
+}
+}
+
+@media screen and (max-width: 750px) {
+.flex-area{
+    flex-direction:column;
+    align-items: center;
+    
+}
+
+.phasesmoon{
+    grid-template-columns: 1fr;
+}
+
+iframe{
+    width:80%;
+    padding:8px;
+}
+
+.text p{
+    font-size:20px;
+}
+
+.movingmoon{
+    width:100px;
+    height:100px;
+}
+
+@keyframes my-moon{
+    0% {left:0; top:0;}
+    25% {left:40%; top:0;}
+    50% {left:40%; top:200px;}
+    75% {left:0; top:200px;}
+    100% {left:0; top:0;}
+}
+
+
+
+
+
+
+}
