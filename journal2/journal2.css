@@ -1,0 +1,334 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+    font-family:Raleway, sans-serif;
+}
+
+
+.frank{
+    background-color: rgb(252, 247, 247);
+}
+.response{
+    background-color:pink;
+}
+
+body {
+    background-color: rgb(252, 247, 247);
+  }
+  
+  /* On screens that are 992px or less, set the background color to blue */
+  @media screen and (max-width: 992px) {
+    body {
+      
+    }
+  }
+  
+  /* On screens that are 600px or less, set the background color to olive */
+  @media screen and (max-width: 600px) {
+    body {
+      
+    }
+  }
+
+
+.header{
+  padding: 60px;
+  text-align: center;
+  background-color: pink;
+  color: rgb(62, 62, 62);
+  text-shadow: #000000 15 15px 15px 15px;
+  align-items: center;
+  align-content: center;
+}
+
+h4{
+    font-size:40px;
+    margin-top:30px;
+}
+
+.line-h1{
+    text-align: center;
+    margin:auto;
+    width:50%;
+}
+
+.flexparent {
+    display: flex;
+    }
+    
+    .column1 { 
+        grid-area: 1 / 1 / 2 / 2; 
+    }
+    .column2 { grid-area: 1 / 2 / 2 / 4; }
+
+/* If screen size is more than 600px wide, set the font-size of <div> to 80px */
+@media screen and (min-width: 600px) {
+    h2 {
+      font-size: 90px;
+      font-weight: 900;
+      margin-top:60px;
+    }
+    .header{
+        height:600px;
+    }
+    .subheader h3 {
+        font-size: 25px;
+        font-weight:800;
+        text-decoration: dashed 5px black;
+        color:#333;
+        text-align: center;
+        margin:15px;
+        margin-top:35px;
+        padding-top:2%;
+    }
+    .flexparent{
+        flex-direction: row;
+        margin-left:10%;
+        margin-right:10%;
+        
+    }
+    .column1{
+        margin:20px;
+    }
+    .column2{
+        margin:20px;
+        font-size:17px;
+        font-size:larger;
+        margin-top:50px;
+        line-height:50px;
+    }
+  }
+
+@media screen and (max-width: 992px) {
+    h2{
+    font-size:60px;
+    }
+    .header{
+        height:500px;
+    }
+    .subheader h3 {
+        font-size: 25px;
+        font-weight:800;
+        text-decoration: solid 10px rgb(255, 0, 0);
+    }
+    .flexparent{
+        flex-direction: row;
+        margin:0;
+        align-items: center;
+    }
+    .column1{
+        margin:20px;
+    }
+    .column2{
+        margin:20px;
+        font-size:17px;
+        line-height:30px;
+    }
+  }
+  
+  /* If screen size is 600px wide, or less, set the font-size of <div> to 30px */
+@media screen and (max-width: 600px) {
+    h2 {
+      font-size: 60px;
+      font-weight:900;
+    }
+    .header{
+        height:400px;
+    }
+    .subheader h3 {
+        font-size: 30px;
+        font-weight:800;
+        text-decoration: dashed 5px black;
+        color:#333;
+        text-align: center;
+        margin:15px;
+        margin-top:35px;
+        padding-top:20px;
+    }
+    .flexparent{
+        flex-direction: column;
+        margin:auto;
+    }
+    .column2{
+        margin:20px;
+        font-size:20px;
+    }
+    h4{
+        font-size:30px;
+        margin-top:30px;
+    }
+  }
+
+
+
+
+  .topnav {
+    overflow: hidden;
+    background-color: #333;
+    padding:5px;
+  }
+  a{
+    transition:.3s;
+  }
+  .topnav a:hover{
+    background-color:white;
+    color:#333;
+  }
+  
+  /* Navbar links */
+  .topnav a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* On screens that are 600px wide or less, make the menu links stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .topnav a {
+      float: none;
+      width: 100%;
+    }
+  }
+
+
+
+
+  /* Create four equal columns that floats next to each other */
+.red{
+    background-color: red;
+}
+
+
+.column {
+    float: left;
+    width: 30%;
+    margin:10px;
+  }
+
+  /* Clear floats after the columns */
+
+  
+  
+  /* On screens that are 992px wide or less, go from four columns to two columns */
+  @media screen and (max-width: 992px) {
+    .column {
+      width: 50%;
+    }
+  }
+  
+  /* On screens that are 600px wide or less, make the columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+    }
+  }
+
+
+.container{
+    width:100%;
+    background:pink;
+    font-size: 17px;
+    padding-left:40px;
+    padding-top:40px;
+    padding-bottom:40px;
+    line-height:25px;
+}
+.floated{
+    float: right;
+    font-size:30px;
+    width: 30%;
+    margin-left:20px;
+    padding:2%;
+    background: rgb(252, 247, 247);
+    line-height:40px;
+    margin-bottom:20px;
+}
+.emphasis{
+    color:palevioletred;
+    font-weight:900;
+    font-size:35px;
+}
+
+@media screen and (min-width: 600px) {
+    .container{
+        width:100%;
+      
+        font-size: 17px;
+        padding-left:100px;
+        padding-top:40px;
+        padding-bottom:40px;
+        line-height:25px;
+        padding-right:100px;
+    }
+    .hide-desktop{
+        display:none;
+    }
+    .hide-mobile{
+        display:block;
+    }
+
+}
+@media screen and (max-width: 992px) {
+    .container{
+        width:100%;
+    
+        font-size: 17px;
+        padding-left:100px;
+        padding-top:40px;
+        padding-bottom:40px;
+        line-height:25px;
+        padding-right:100px;
+    }
+    .floated{
+        float: right;
+        font-size:30px;
+        width: 40%;
+        margin-left:35px;
+        padding:2%;
+        
+        line-height:40px;
+        
+    }
+    .emphasis{
+        color:palevioletred;
+        font-weight:900;
+        font-size:35px;
+    }
+  }
+@media screen and (max-width: 600px) {
+    .container{
+        width:100%;
+       
+        font-size: 20px;
+        padding-left:100px;
+        padding-top:40px;
+        padding-bottom:40px;
+        line-height:32px;
+        padding-right:100px;
+    }
+    .floated{
+        float: right;
+        font-size:30px;
+        width: 100%;
+        margin-left:35px;
+        padding:2%;
+        
+        line-height:40px;
+        margin-top:30px;
+        margin-bottom:30px;
+        
+    }
+    .emphasis{
+        color:palevioletred;
+        font-weight:900;
+        font-size:35px;
+    }
+    .hide-mobile{
+        display:none;
+    }
+
+  }
