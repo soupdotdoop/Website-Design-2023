@@ -1,0 +1,258 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+
+body{
+    font-family: 'Oswald', sans-serif;
+    font-size:24px;
+}
+
+/*NAVIGATION STUFF*/
+.nav-container{
+    position:fixed;
+    top:0;
+    left:0;
+    text-align:center;
+    background-color:rgb(235, 214, 182);
+   
+    padding-bottom:7px;
+    width:100%;
+    z-index:100000;
+    align-items: center;
+}
+.link{
+    background-color:black;
+    color:white;
+    text-transform: uppercase;
+    padding:5px;
+    font-size:14px;
+    text-decoration:none;
+
+}
+.link:hover{
+    background-color: rgb(180, 89, 89);
+}
+
+.highlight{
+    background-color:rgb(88, 138, 13);
+    color:rgb(0, 0, 0);
+}
+.highlight:hover{
+    background-color:rgb(88, 138, 13);
+    color:rgb(0, 0, 0);
+}
+
+.link-content{
+    display:none;
+}
+.active{
+    display:block;
+}
+
+/*END OF NAVIGATION STUFF*/
+
+
+#leaves{
+    background-color: aliceblue;
+}
+
+.container{
+    width:100%;
+    height:100vh;
+    position: relative;
+}
+.container img{
+    height:400px;
+}
+.purpleleaf{
+    position:absolute;
+    top:10%;
+    left:10%;
+    rotate:30deg;
+    cursor:pointer;
+}
+.yellowleaf{
+    position:absolute;
+    top:50%;
+    left:20%;
+    rotate:80deg;
+    cursor:pointer;
+}
+.pinkleaf{
+    position:absolute;
+    top:30%;
+    left:50%;
+    rotate:-10deg;
+    cursor:pointer;
+}
+.greenleaf{
+    position:absolute;
+    top:10%;
+    right:10%;
+    rotate:-30deg;
+    cursor:pointer;
+}
+.purpleleaf2{
+    position:absolute;
+    top:50%;
+    right:10%;
+    rotate:-30deg;
+    display:none;
+}
+.reset{
+    background-color:rgb(158, 23, 23);
+    border-radius: 15px;
+    position:absolute;
+    bottom:5px;
+    left:5px;
+    color:white;
+    padding:2%;
+    transition:.2s;
+}
+.reset:hover{
+    cursor:pointer;
+    color:whitesmoke;
+    background-color:rgb(170, 54, 54);
+}
+
+
+#flowers .container{
+    background-color: darkgrey;
+}
+.parent {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+    }
+    
+    .div1 { 
+        background-image: url(images/daisy.png);
+        grid-area: 1 / 1 / 2 / 2; 
+        background-size:contain;
+        background-repeat: no-repeat;
+        background-position: center;
+        height:50vh;
+    }
+    .div2 { 
+        background-image:url(images/lily.png);
+        grid-area: 1 / 2 / 2 / 3; 
+        background-size:contain;
+        background-repeat: no-repeat;
+        background-position: center;
+        height:50vh;
+    }
+    .div3 { 
+        background-image: url(images/rose.png);
+        grid-area: 2 / 1 / 3 / 2; 
+        background-size:contain;
+        background-repeat: no-repeat;
+        background-position: center;
+        height:50vh;
+    }
+    .div4 { 
+        background-image: url(images/tulip.png);
+        grid-area: 2 / 2 / 3 / 3; 
+        background-size:contain;
+        background-repeat: no-repeat;
+        background-position: center;
+        height:50vh;
+    }
+    .div1text, .div2text, .div3text, .div4text{
+        position:absolute;
+        top:0;
+        left:0;
+        font-size:40px;
+        font-style:italic;
+        color:rgb(54, 32, 54);
+        margin:10%;
+        display: none;
+    }
+    
+    .front{
+        opacity:0.5;
+        z-index:99;
+    }
+
+/*TREE STUFF*/
+
+.treescontainer{
+    display:flex;
+    flex-direction: row;
+}
+
+.column{
+    width:50%;
+    padding: 0 5%;
+}
+.dfur{
+    background-image: url(images/coastdouglasfur.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:contain;
+    height:70vh;
+}
+.lpine{
+    background-image: url(images/longleafpine.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:contain;
+    height:70vh;
+}
+h2{
+    text-align:center;
+    font-size:30px;
+    margin-top:50px;
+}
+h3{
+    font-style: italic;
+    text-align: center;
+    margin-bottom:50px;
+    font-size:16px;
+}
+h4{
+    font-size: 16px;
+    text-transform: uppercase;
+    padding:10px;
+    background-color: rgb(235, 214, 182);
+    border-bottom:1px solid #cccc;
+    
+}
+.treetext{
+    padding:20px;
+    font-size:20px;
+    font-weight:300;
+    display:none;
+}
+li{
+    list-style-type:none;
+}
+
+#trees{
+    margin-bottom:20px;
+}
+
+/*MEDIA QUERY*/
+@media screen and (max-width: 850px) {
+    .treescontainer{
+        flex-direction: column;
+    }
+    .column{
+        width:100%;
+    }
+    .div1text, .divtext2, .div3text, .div4text {
+        font-size:30px;
+    }
+
+    .container div img{
+        height:20vh;
+    }
+}
