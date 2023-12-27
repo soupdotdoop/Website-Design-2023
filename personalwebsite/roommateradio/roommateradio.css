@@ -594,15 +594,21 @@ header{
 .iframe{
     margin-left:10px;
     margin-right:10px;
-    margin-top:200px;
+ 
     text-align: center;
+    width:100%;
+    
+}
+.iframe{
+    width:100%;
 }
 .songimage{
     margin-left:40%;
     margin-right:40%;
-    
+    margin-bottom:0;
     text-align: center;
     width:300px;
+    margin-top:200px;
 }
 .songimage img{
     width:100%;
@@ -676,6 +682,119 @@ header{
         margin-top:250px;
     }
 
+}
+/*Main page iPHONE*/
+@media screen and (max-width: 500px) {
+    .welcome{
+        background-size:200%;
+        background-repeat: no-repeat;
+        margin-top: 20px;
+        margin-bottom: 0;
+        height:50vh;
+    }
+    .whoarewe{
+        margin-left:0px;
+        margin-right:0px;
+
+    }
+    .whoarewe-flex-container{
+        gap:0;
+    }
+    header{
+        position:relative;
+        height:fit-content;
+        margin-bottom:0;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+    }
+    .button-35 {
+        margin-bottom:0;
+    }
+    .flex-item1 {
+        width:90%;
+    }
+    .two-of-us-cartoon{
+        margin-left:0;
+        margin-right:0;
+        text-align: center;
+        align-items: center;
+        display:flex;
+    }
+    .flex-item2{
+        width:100%;
+    }
+    .whoarewe-flex-container{
+        margin-left:0;
+        margin-right:0;
+        padding:0px;
+    }
+    .whoarewe-flex-item1{
+        width:90%;
+    }
+    .whoarewe-flex-item2{
+        width:90%;
+        margin-top:11%;
+    }
+    .break{
+        flex-direction:column;
+        margin-left:5px;
+        margin-right:5px;
+    }
+    .img-fluid{
+        
+    }
+    .nav-image img{
+        width:50%;
+    }
+    .box h2{
+        font-size:xx-large;
+    }
+
+    /*countdown*/
+    .big-container{
+    
+        height:fit-content;
+        margin-left:auto;
+        margin-right:auto;
+    }
+    .big-container h1{
+        font-size: 30px;
+        line-height: 30px;
+    }
+    .container-2{
+        padding:20px;
+    }
+    .big-container li span{
+        font-size:2rem;
+        color:#1a686c;
+    }
+    .separator{
+        margin:0 10px;
+        font-size: 2rem;
+        line-height:1;
+        color:#1a686c;
+    }
+    /*Requests*/
+    .iframe{
+        margin-top: 0px;
+        width:330px;
+    }
+    .songimage{
+        margin-left:auto;
+        margin-right:auto;
+        margin-top:50px;
+    }
+    /*Archive*/
+    #audio-archive header{
+        position:relative;
+    }
+    #audio-archive{
+        margin-top:150px;
+    }
+    .note-box{
+        width:50%;
+    }
 }
 
 
