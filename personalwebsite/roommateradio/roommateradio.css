@@ -360,6 +360,20 @@ header{
     text-transform: capitalize;
     font-weight:600;
     position:relative;
+    transition: .2s;
+
+}
+.box2:hover{
+    background-color:#DFAB26;
+    color:white;
+    font-size: larger;
+}
+
+
+
+a{
+    text-decoration: none;
+    text-transform: none;
 }
 .hr2{
     border: none;
